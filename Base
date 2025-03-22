@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyoshades Games</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            background: black;
+            background-size: cover;
+        }
+        h1 { 
+            color: #9b59b6; /* Purple color */
+        }
+        .game-container { display: flex; flex-wrap: wrap; justify-content: center; }
+        .game-card { width: 200px; margin: 10px; padding: 10px; background: white; border-radius: 10px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); }
+        .game-card img { width: 100%; border-radius: 10px; }
+        .game-card a { 
+            text-decoration: none; 
+            color: black; /* Set text color to black */
+            display: block; 
+            margin-top: 5px; 
+            font-weight: bold;
+            padding: 10px; /* Increased padding for better button size */
+            background-color: darkviolet; /* Button color changed to black */
+            border: 2px solid #9b59b6; /* Purple border */
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .game-card a:hover {
+            background: #9b59b6; /* Purple background on hover */
+            color: darkviolet; /* Set text color to black on hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Kyoshades Games</h1>
+    <div class="game-container">
+        <!-- Example game entry -->
+        <div class="game-card">
+            <img src="game1-" alt="Game 1">
+            <a href="games/game1.html" target="_blank">Play Game 1</a>
+        </div>
+        <div class="game-card">
+            <img src="game2-thumbnail.jpg" alt="Game 2">
+            <a href="games/game2.html" target="_blank">Play Game 2</a>
+        </div>
+        <!-- Repeat for additional games -->
+        <div class="game-card">
+            <img src="game3-thumbnail.jpg" alt="Game 3">
+            <a href="games/game3.html" target="_blank">Play Game 3</a>
+        </div>
+        <div class="game-card">
+            <img src="game4-thumbnail.jpg" alt="Game 4">
+            <a href="games/game4.html" target="_blank">Play Game 4</a>
+        </div>
+        <!-- Continue for 50 games -->
+    </div>
+</body>
+</html>
